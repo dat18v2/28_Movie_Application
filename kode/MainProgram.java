@@ -47,14 +47,16 @@ public class MainProgram{
          switch (option){
             case 0:
                System.out.println("Udskriv navne");
-               System.out.println(names);
                System.out.println(Arrays.toString(names));
+               for (int i=0;i<names.length;i++){
+                  System.out.println("Navn[" + i + "]: "+ names[i])
+               }
                break;
             case 1:
-               System.out.println("Du valgte 1!");
+               System.out.println("Vælge bruger");
                break;
             case 2:
-               System.out.println("Du valgte 2!");
+               System.out.println("Ændr navn");
                break;
             case 3:
                //exit
