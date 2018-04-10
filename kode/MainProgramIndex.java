@@ -9,9 +9,15 @@ public class MainProgramIndex{
       //den bruger vi retter på nu
       int currentUser = 0;
       
+      
       //menu
       int option;
       Scanner scan = new Scanner(System.in);
+      
+      //Opgave lav log ind/log ud
+      //tilføj ekstra while loop uden om eksisterende
+      //med menu, der har log ind og log out
+      
       boolean keepRunning = true;
       
       while (keepRunning){
