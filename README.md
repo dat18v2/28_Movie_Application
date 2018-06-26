@@ -8,7 +8,7 @@ Opsamling på Car Wash
 * menu valg
 * program loop
 * at gøre input mere sikkert (Scanner has nextInt)
-* at hold styr på hvilken bruger, der er logget ind
+* at holde styr på hvilken bruger, der er logget ind
   * spørg ved bestilling
   * index-variabel
   * currentUser-objekt
